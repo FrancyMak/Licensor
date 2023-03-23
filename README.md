@@ -1,27 +1,27 @@
 # Licensor
-Licensor è un progetto personale che ho creato per inserire eventuali feature premium all'interno dei miei bot. Questo bot permette di gestire le licenze e la verifica dell'utente che ha acquistato la licenza.
+Licensor is a personal project I created to include any premium features within my bots. This bot allows you to manage licensing and verification of the user who purchased the license.
 
 ## Features
-- Creazione di licenze specificando il prodotto e la durata
-- Revoca di licenze e visualizzazione delle licenze scadute
-- Informazioni sulle licenze, come il proprietario, il prodotto, data di creazione e scadenza, se è stata utilizzata o meno e dove è stata utilizzata.
-- Controllo automatico della validità delle licenze
+- Creation of licenses by specifying the product and duration
+- Revocation of licenses and display of expired licenses
+- Information about licenses, such as owner, product, creation and expiration date, whether or not it was used, and where it was used.
+- Automatic checking of the validity of licenses
 
-## Come funziona
-Il bot attualmente è in fase di sviluppo, quindi ha solamente la creazione, gestione, revoca delle licenze, controllo della validità delle licenze e visualizzazione delle licenze scadute. In sviluppo sono le **API** per saranno integrate nei miei bot, così da non dover ricreare un sistema di licenze ogni volta. 
+## How it works.
+The bot is currently in development, so it only has license creation, management, license revocation, license validity checking, and expired license display. In development are the **APIs** for will be integrated into my bots so I don't have to recreate a licensing system every time. 
 
 ## Commands
-I comandi principali possono essere usati solo dall'admin:
+The main commands can only be used by the admin:
 
 ### Admin
-- `/license create <product> <duration>`: crea una licenza per il prodotto specificato con la durata specificata.
-- `/license delete <license>`: cancella la licenza specificata.
-- `/license info <license>`: mostra le informazioni della licenza specificata.
-- `/license active <license>`: attiva la licenza specificata (solo in fase di sviluppo, in futuro verranno usate le API).
+- `/license create <product> <duration>`: creates a license for the specified product with the specified duration.
+- `/license delete <license>`: deletes the specified license.
+- `/license info <license>`: shows the specified license information.
+- `/license active <license>`: activate the specified license (in development only, API will be used in the future).
 
-### Utente
-- `/verify`: verifica se l'utente ha una licenza valida e fornisce il ruolo per il supporto premium.
+### User
+- `/verify`: checks if the user has a valid license and provides the role for premium support.
 
-## ToDo
-- [ ] Aggiungere le API per l'integrazione con i bot
-- [ ] Aggiungere il comando di revoca delle licenze
+## ToDo.
+- [ ] Add API for integration with bots.
+- [ ] Add license revocation command.
